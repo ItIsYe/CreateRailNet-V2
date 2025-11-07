@@ -51,13 +51,13 @@ zu einem dezentralen Netzwerk mit GUI, Signallogik und Selbstregelung.
 ## 📁 Projektstruktur
 
 /railnet/
-├─ lib/ → Kernlogik (Transport, Cargo, Depot, Create-Adapter)
-├─ depot/ → Depot-Knoten (Redstone/Dispatch)
-├─ station/ → Cargo- & Train-Nodes
-├─ panels/ → GUI-Module (Depot, Cargo, TrainControl)
-├─ data/ → Beispielrouten
-├─ etc/ → Policies, Configs, Adapter-Einstellungen
-└─ master_gui_multi_plus.lua → Hauptoberfläche
+-├─ lib/ → Kernlogik (Transport, Cargo, Depot, Create-Adapter)
+-├─ depot/ → Depot-Knoten (Redstone/Dispatch)
+-├─ station/ → Cargo- & Train-Nodes
+-├─ panels/ → GUI-Module (Depot, Cargo, TrainControl)
+-├─ data/ → Beispielrouten
+-├─ etc/ → Policies, Configs, Adapter-Einstellungen
+-└─ master_gui_multi_plus.lua → Hauptoberfläche
 ---
 
 ## 🧠 Voraussetzungen
@@ -85,14 +85,14 @@ zu einem dezentralen Netzwerk mit GUI, Signallogik und Selbstregelung.
 
 ##⚙️ Konfiguration
 
-Alle Einstellungen befinden sich unter /railnet/etc/:
+-Alle Einstellungen befinden sich unter /railnet/etc/:
 
-Datei	Beschreibung
-depot_policy.json	Steuerung von Idle-Trains, Service-Grenzen
-create_adapter.json	Peripheral & Redstone-Zuordnung
-secret.json	Schlüssel für sichere Kommunikation
-colors.json	GUI-Farbanpassung
-/data/cargo_routes.json	Route-Definitionen für Cargo-System
-   shell.run("install.lua")
+ -Datei	Beschreibung
+ -depot_policy.json	Steuerung von Idle-Trains, Service-Grenzen
+ -create_adapter.json	Peripheral & Redstone-Zuordnung
+ -secret.json	Schlüssel für sichere Kommunikation
+ -colors.json	GUI-Farbanpassung
+ -/data/cargo_routes.json	Route-Definitionen für Cargo-System
+  -shell.run("install.lua")
 
    
