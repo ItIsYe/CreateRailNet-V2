@@ -1,0 +1,21 @@
+{
+  "D:WEST": {
+    "idle_targets": {
+      "cargo": 2,
+      "pass": 1
+    },
+    "service": {
+      "max_failures": 3,
+      "max_timeouts": 2
+    }
+  },
+  "D:EAST": {
+    "idle_targets": {
+      "cargo": 1
+    },
+    "service": {
+      "max_failures": 5,
+      "max_timeouts": 3
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "mode": "auto",
+  "train": {
+    "start_side": "back",
+    "stop_side": "left",
+    "boost_side": "right"
+  },
+  "switch": {
+    "straight_side": "right",
+    "diverge_side": "back"
+  },
+  "signals": {
+    "default_side": "top"
+  },
+  "peripherals": {
+    "train": null,
+    "signal": null,
+    "switch": null
+  }
+}

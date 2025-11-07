@@ -1,0 +1,26 @@
+{
+  "Iron_to_Smelter": {
+    "stops": [
+      {
+        "station_id": "S:IRON_MINE",
+        "platform_id": "P:IM:1",
+        "action": "load",
+        "filter": {
+          "tag": "oreIron"
+        },
+        "amount": 1000,
+        "max_wait_s": 30
+      },
+      {
+        "station_id": "S:SMELTER",
+        "platform_id": "P:SM:2",
+        "action": "unload",
+        "filter": {
+          "tag": "oreIron"
+        },
+        "amount": 1000,
+        "max_wait_s": 30
+      }
+    ]
+  }
+}
